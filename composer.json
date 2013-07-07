@@ -1,0 +1,22 @@
+{
+    "name": "reflex/bastion",
+    "description": "Reflex Framework",
+    "keywords": ["reflex", "framework"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "Reflex Community",
+            "homepage": "http://reflex.aziri.us/contributors"
+        }
+    ],
+    "require": {
+        "php":  ">=5.3.0",
+        "reflex/framework": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Reflex\\Bastion\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
